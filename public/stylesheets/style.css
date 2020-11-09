@@ -1,0 +1,28 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #ffffff;
+}
+
+.card {
+  color: #000000;
+}
+.btn {
+  background-color: darkred;
+  color: #ffffff;
+  border: solid 1px darkred;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px;
+  margin-bottom: 100px;
+}
